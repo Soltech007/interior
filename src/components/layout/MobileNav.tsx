@@ -78,14 +78,15 @@ export function MobileNav({ navLinks }: MobileNavProps) {
                                     All {category.name}
                                   </Link>
                                   {category.subcategories.map((sub) => (
-                                    <Link
-                                      key={sub.slug}
-                                      href={`/projects/${category.slug}/${sub.slug}`}
-                                      className="text-muted-foreground hover:text-foreground text-sm"
-                                      onClick={() => setIsOpen(false)}
-                                    >
-                                      {sub.name}
-                                    </Link>
+                                   <Link
+  key={sub.slug}
+  href={`/projects/${category.slug}?sub=${sub.slug}`}
+  className="text-muted-foreground hover:text-foreground text-sm"
+  onClick={() => setIsOpen(false)}
+>
+  {sub.name}
+</Link>
+
                                   ))}
                                 </div>
                               </AccordionContent>

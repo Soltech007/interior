@@ -19,7 +19,7 @@ const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
   { href: '/projects', label: 'Projects', sublinks: categories },
-  { href: '/awards', label: 'Awards' },
+  // { href: '/awards', label: 'Awards' },
   { href: '/contact', label: 'Contact' },
 ];
 
