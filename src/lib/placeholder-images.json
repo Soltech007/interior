@@ -1,0 +1,252 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-home",
+      "description": "Luxurious modern living room with large windows and city view.",
+      "imageUrl": "https://images.unsplash.com/photo-1594873604892-b599f847e859?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjMzMDkxNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern interior",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "about-firm",
+      "description": "Architects collaborating over blueprints in a modern office.",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwd29ya2luZ3xlbnwwfHx8fDE3NjMyNzU3NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team working",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "contact-hero",
+      "description": "A stylish office reception desk.",
+      "imageUrl": "https://images.unsplash.com/photo-1652803723541-ffc5a8783329?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvZmZpY2UlMjByZWNlcHRpb258ZW58MHx8fHwxNzYzMjg0OTMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office reception",
+      "width": 1920,
+      "height": 600
+    },
+    {
+      "id": "cat-residential",
+      "description": "A beautiful modern house exterior.",
+      "imageUrl": "https://images.unsplash.com/photo-1670589953882-b94c9cb380f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBob3VzZXxlbnwwfHx8fDE3NjMzMTIzMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern house",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "cat-corporate",
+      "description": "A modern corporate office building.",
+      "imageUrl": "https://images.unsplash.com/photo-1549757521-4160565ff3de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvZmZpY2UlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjMyNzA3OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office building",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "cat-hospitality",
+      "description": "Lobby of a luxury hotel.",
+      "imageUrl": "https://images.unsplash.com/photo-1583953458882-302655b5c376?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxob3RlbCUyMGxvYmJ5fGVufDB8fHx8MTc2MzMyNDYzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hotel lobby",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "cat-retail",
+      "description": "Interior of a high-end fashion boutique.",
+      "imageUrl": "https://images.unsplash.com/photo-1762090275507-3281d3b85366?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmYXNoaW9uJTIwYm91dGlxdWV8ZW58MHx8fHwxNzYzMjk4Mzc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion boutique",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "cat-healthcare",
+      "description": "Modern and clean hospital corridor.",
+      "imageUrl": "https://images.unsplash.com/photo-1530299297082-0846efbd2cdd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxob3NwaXRhbCUyMGNvcnJpZG9yfGVufDB8fHx8MTc2MzM1MzA2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital corridor",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "cat-artwork",
+      "description": "Abstract sculpture in a gallery.",
+      "imageUrl": "https://images.unsplash.com/photo-1637246344338-2afcfb02e766?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNjdWxwdHVyZXxlbnwwfHx8fDE3NjMzNTMwNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract sculpture",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "cover-seventy-res",
+      "description": "Exterior of a modern residential building at dusk.",
+      "imageUrl": "https://images.unsplash.com/photo-1667375887091-2237f31fa92b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2Rlcm4lMjByZXNpZGVuY2V8ZW58MHx8fHwxNzYzMzUyNzM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern residence",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "cover-azure-villas",
+      "description": "Swimming pool area of a luxurious villa.",
+      "imageUrl": "https://images.unsplash.com/photo-1556630279-0ecfac70eaf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsdXh1cnklMjB2aWxsYXxlbnwwfHx8fDE3NjMzNDkyOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "luxury villa",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "cover-techcorp-hq",
+      "description": "Glass facade of a modern office headquarters.",
+      "imageUrl": "https://images.unsplash.com/photo-1696738061271-401a7ef09e51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxvZmZpY2UlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjMyNzA3OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office building",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "cover-innovate-hub",
+      "description": "Collaborative workspace in a tech office.",
+      "imageUrl": "https://images.unsplash.com/photo-1629904853716-f0bc54eea481?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWNoJTIwb2ZmaWNlfGVufDB8fHx8MTc2MzM1MjczOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech office",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "cover-elysian-hotel",
+      "description": "Grand entrance of a five-star hotel.",
+      "imageUrl": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3NjMyNzMwNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "luxury hotel",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "cover-oasis-resort",
+      "description": "Beachfront view from a resort balcony.",
+      "imageUrl": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiZWFjaCUyMHJlc29ydHxlbnwwfHx8fDE3NjMzNTI3Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beach resort",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "cover-flagship-store",
+      "description": "Interior of a minimalist retail store.",
+      "imageUrl": "https://images.unsplash.com/photo-1526152505827-d2f3b5b4a52a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmV0YWlsJTIwc3RvcmV8ZW58MHx8fHwxNzYzMzI3MzM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "retail store",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "placeholder-1",
+      "description": "A chic and functional apartment.",
+      "imageUrl": "https://images.unsplash.com/photo-1675279200694-8529c73b1fd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjMyOTU1Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "apartment interior",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "placeholder-2",
+      "description": "A gourmet kitchen.",
+      "imageUrl": "https://images.unsplash.com/photo-1758347262469-4e4a318b3981?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxnb3VybWV0JTIwa2l0Y2hlbnxlbnwwfHx8fDE3NjMyNDQ3Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gourmet kitchen",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "placeholder-3",
+      "description": "A spa-like bathroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1762732793012-8bdab3af00b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzcGElMjBiYXRocm9vbXxlbnwwfHx8fDE3NjMzNDgyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spa bathroom",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "placeholder-4",
+      "description": "A fine-dining restaurant.",
+      "imageUrl": "https://images.unsplash.com/photo-1643879397174-4f10ac503566?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmaW5lJTIwZGluaW5nfGVufDB8fHx8MTc2MzI3MDg1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fine dining",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "placeholder-5",
+      "description": "A grand banquet hall.",
+      "imageUrl": "https://images.unsplash.com/photo-1526568929-7cdd510e77fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiYW5xdWV0JTIwaGFsbHxlbnwwfHx8fDE3NjMzNTMwNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "banquet hall",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "placeholder-6",
+      "description": "A modern dental clinic.",
+      "imageUrl": "https://images.unsplash.com/photo-1643660526741-094639fbe53a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkZW50YWwlMjBjbGluaWN8ZW58MHx8fHwxNzYzMjk2NjM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dental clinic",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "placeholder-7",
+      "description": "A bronze sculpture.",
+      "imageUrl": "https://images.unsplash.com/photo-1691317837230-4b7e948be93c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxicm9uemUlMjBzY3VscHR1cmV8ZW58MHx8fHwxNzYzMzA2ODc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bronze sculpture",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "gallery-res1-1",
+      "description": "Living room of Seventy Residence.",
+      "imageUrl": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsaXZpbmclMjByb29tfGVufDB8fHx8MTc2MzM1MjczOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "living room",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-res1-2",
+      "description": "Kitchen of Seventy Residence.",
+      "imageUrl": "https://images.unsplash.com/photo-1639405069836-f82aa6dcb900?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2Rlcm4lMjBraXRjaGVufGVufDB8fHx8MTc2MzMxNDk5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern kitchen",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-res1-3",
+      "description": "Bedroom of Seventy Residence.",
+      "imageUrl": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtaW5pbWFsaXN0JTIwYmVkcm9vbXxlbnwwfHx8fDE3NjMzNDMzMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minimalist bedroom",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-corp1-1",
+      "description": "Reception area of TechCorp HQ.",
+      "imageUrl": "https://images.unsplash.com/photo-1571624436279-b272aff752b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8b2ZmaWNlJTIwcmVjZXB0aW9ufGVufDB8fHx8MTc2MzI4NDkzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office reception",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-corp1-2",
+      "description": "Meeting room at TechCorp HQ.",
+      "imageUrl": "https://images.unsplash.com/photo-1462826303086-329426d1aef5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtZWV0aW5nJTIwcm9vbXxlbnwwfHx8fDE3NjMzMDAzNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "meeting room",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-corp1-3",
+      "description": "Open office space at TechCorp HQ.",
+      "imageUrl": "https://images.unsplash.com/photo-1577412647305-991150c7d163?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxvcGVuJTIwb2ZmaWNlfGVufDB8fHx8MTc2MzM1MjczOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "open office",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-hosp1-1",
+      "description": "Hotel room with a view at The Elysian Hotel.",
+      "imageUrl": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxob3RlbCUyMHJvb218ZW58MHx8fHwxNzYzMzIxNDYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hotel room",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-hosp1-2",
+      "description": "Restaurant inside The Elysian Hotel.",
+      "imageUrl": "https://images.unsplash.com/photo-1552566626-52f8b828add9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxob3RlbCUyMHJlc3RhdXJhbnR8ZW58MHx8fHwxNzYzMjU5OTkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hotel restaurant",
+      "width": 800,
+      "height": 600
+    }
+  ]
+}
