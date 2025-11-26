@@ -734,10 +734,7 @@ const navLinks = [
         label: 'Projects',
         sublinks: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$data$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["categories"]
     },
-    {
-        href: '/awards',
-        label: 'Awards'
-    },
+    // { href: '/awards', label: 'Awards' },
     {
         href: '/contact',
         label: 'Contact'

@@ -14,7 +14,7 @@ export const getImageById = (id: string): ImagePlaceholder => {
     };
   }
   return image;
-}
+};
 
 export const categories: Category[] = [
   {
@@ -35,9 +35,9 @@ export const categories: Category[] = [
     description: 'Designing innovative workspaces that foster creativity and productivity.',
     imageId: 'cat-corporate',
     subcategories: [
-        { slug: 'office', name: 'Office' },
-        { slug: 'shop-boutique', name: 'Shop / Boutique' },
-    ]
+      { slug: 'office', name: 'Office' },
+      { slug: 'shop-boutique', name: 'Shop / Boutique' },
+    ],
   },
   {
     slug: 'hospitality',
@@ -45,67 +45,81 @@ export const categories: Category[] = [
     description: 'Creating memorable experiences through immersive and welcoming environments.',
     imageId: 'cat-hospitality',
     subcategories: [
-        { slug: 'hotel', name: 'Hotel' },
-        { slug: 'restaurant', name: 'Restaurant' },
-        { slug: 'banquet', name: 'Banquet' },
-    ]
+      { slug: 'hotel', name: 'Hotel' },
+      { slug: 'restaurant', name: 'Restaurant' },
+      { slug: 'banquet', name: 'Banquet' },
+    ],
   },
   {
     slug: 'hospital-healthcare',
     name: 'Hospital / Healthcare',
     description: 'Designing healing environments with a focus on patient well-being.',
     imageId: 'cat-healthcare',
-    subcategories: [
-        { slug: 'clinic', name: 'Clinic' },
-    ]
+    subcategories: [{ slug: 'clinic', name: 'Clinic' }],
   },
   {
     slug: 'art-work',
     name: 'Art Work',
     description: 'Curating and creating unique art pieces that define and enhance spaces.',
     imageId: 'cat-artwork',
-  }
+  },
 ];
 
 export const projects: Project[] = [
+  // ===== COMMERCIAL PROJECTS =====
   {
-    slug: 'seventy-residence',
-    title: 'Seventy Residence',
-    category: 'residential',
-    subcategory: 'bungalows',
-    categoryName: 'Residential',
-    subcategoryName: 'Bungalows',
-    location: 'Ahmedabad',
+    slug: 'limpair-office',
+    title: 'Limpair Office',
+    category: 'commercial',
+    subcategory: 'office',
+    categoryName: 'Commercial',
+    subcategoryName: 'Office',
+    location: 'Vapi',
     year: 2023,
-    description: 'A contemporary home designed for a modern family, balancing open, social spaces with private retreats. The design emphasizes natural light and a connection to the outdoors.',
-    coverImageId: 'cover-seventy-res',
-    galleryImageIds: ['gallery-res1-1', 'gallery-res1-2', 'gallery-res1-3'],
+    description: 'A modern commercial office space designed for efficiency and style. The design incorporates clean lines, ample natural light, and collaborative workspaces.',
+    coverImageId: 'cover-limpair-office',
+    galleryImageIds: ['gallery-limpair-1', 'gallery-limpair-2', 'gallery-limpair-3', 'gallery-limpair-4'],
   },
+
+  // ===== RESIDENTIAL PROJECTS =====
   {
-    slug: 'azure-villas',
-    title: 'Azure Villas',
+    slug: 'daman-residence',
+    title: 'Daman Residence',
     category: 'residential',
     subcategory: 'bungalows',
     categoryName: 'Residential',
     subcategoryName: 'Bungalows',
-    location: 'Goa',
-    year: 2022,
-    description: 'A series of luxury villas overlooking the Arabian Sea, featuring sustainable design and locally sourced materials. Each villa boasts a private pool and expansive ocean views.',
-    coverImageId: 'cover-azure-villas',
-    galleryImageIds: [],
+    location: 'Daman',
+    year: 2023,
+    description: 'A luxurious bungalow designed for modern family living. Features include open-plan living spaces, contemporary finishes, and seamless indoor-outdoor flow.',
+    coverImageId: 'cover-daman-residence',
+    galleryImageIds: ['gallery-daman-1', 'gallery-daman-2', 'gallery-daman-3', 'gallery-daman-4'],
   },
   {
-    slug: 'modern-apartment',
-    title: 'Modern Apartment',
+    slug: 'modern-residence',
+    title: 'Modern Residence',
     category: 'residential',
     subcategory: 'flats',
     categoryName: 'Residential',
     subcategoryName: 'Flats',
     location: 'Mumbai',
     year: 2023,
-    description: 'A chic and functional apartment design for urban living.',
-    coverImageId: 'placeholder-1',
-    galleryImageIds: [],
+    description: 'A chic and functional apartment design for urban living. The space maximizes natural light while providing comfortable living areas and modern amenities.',
+    coverImageId: 'cover-residence',
+    galleryImageIds: ['gallery-residence-1', 'gallery-residence-2', 'gallery-residence-3', 'gallery-residence-4'],
+  },
+  {
+    slug: 'valsad-residence',
+    title: 'Valsad Residence',
+    category: 'residential',
+    subcategory: 'bungalows',
+    categoryName: 'Residential',
+    subcategoryName: 'Bungalows',
+    location: 'Valsad',
+    year: 2024,
+    description: 'An elegant villa combining traditional aesthetics with modern functionality. The design emphasizes spacious rooms, natural materials, and connection to nature.',
+    coverImageId: 'cover-valsad-residence',
+    galleryImageIds: ['gallery-valsad-1', 'gallery-valsad-2', 'gallery-valsad-3', 'gallery-valsad-4'],
   },
   {
     slug: 'gourmet-kitchen',
@@ -116,7 +130,7 @@ export const projects: Project[] = [
     subcategoryName: 'Kitchen',
     location: 'Delhi',
     year: 2023,
-    description: 'A chef\'s dream kitchen with state-of-the-art appliances and custom cabinetry.',
+    description: "A chef's dream kitchen with state-of-the-art appliances and custom cabinetry.",
     coverImageId: 'placeholder-2',
     galleryImageIds: [],
   },
@@ -133,71 +147,8 @@ export const projects: Project[] = [
     coverImageId: 'placeholder-3',
     galleryImageIds: [],
   },
-  {
-    slug: 'techcorp-hq',
-    title: 'TechCorp HQ',
-    category: 'commercial',
-    subcategory: 'office',
-    categoryName: 'Commercial',
-    subcategoryName: 'Office',
-    location: 'Bangalore',
-    year: 2023,
-    description: 'A state-of-the-art corporate headquarters designed to inspire innovation. The campus includes flexible workspaces, collaborative hubs, and extensive green areas.',
-    coverImageId: 'cover-techcorp-hq',
-    galleryImageIds: ['gallery-corp1-1', 'gallery-corp1-2', 'gallery-corp1-3'],
-  },
-  {
-    slug: 'innovate-hub',
-    title: 'Innovate Hub',
-    category: 'commercial',
-    subcategory: 'office',
-    categoryName: 'Commercial',
-    subcategoryName: 'Office',
-    location: 'Pune',
-    year: 2021,
-    description: 'A dynamic co-working space that caters to startups and creative professionals. The design features modular furniture and multi-functional zones to adapt to various needs.',
-    coverImageId: 'cover-innovate-hub',
-    galleryImageIds: [],
-  },
-  {
-    slug: 'aura-flagship-store',
-    title: 'Aura Flagship Store',
-    category: 'commercial',
-    subcategory: 'shop-boutique',
-    categoryName: 'Commercial',
-    subcategoryName: 'Shop / Boutique',
-    location: 'Mumbai',
-    year: 2023,
-    description: 'A flagship store for a luxury fashion brand, designed to create an immersive shopping experience. The space features dramatic lighting and sculptural displays.',
-    coverImageId: 'cover-flagship-store',
-    galleryImageIds: [],
-  },
-  {
-    slug: 'elysian-hotel',
-    title: 'The Elysian Hotel',
-    category: 'hospitality',
-    subcategory: 'hotel',
-    categoryName: 'Hospitality',
-    subcategoryName: 'Hotel',
-    location: 'Jaipur',
-    year: 2024,
-    description: 'A luxury boutique hotel that blends traditional Rajasthani architecture with contemporary elegance. The interiors feature handcrafted details and bespoke art pieces.',
-    coverImageId: 'cover-elysian-hotel',
-    galleryImageIds: ['gallery-hosp1-1', 'gallery-hosp1-2'],
-  },
-  {
-    slug: 'oasis-resort',
-    title: 'Oasis Resort & Spa',
-    category: 'hospitality',
-    subcategory: 'hotel',
-    categoryName: 'Hospitality',
-    subcategoryName: 'Hotel',
-    location: 'Kerala',
-    year: 2022,
-    description: 'A wellness resort set in the serene backwaters of Kerala. The design harmonizes with nature, offering a tranquil retreat for guests seeking relaxation and rejuvenation.',
-    coverImageId: 'cover-oasis-resort',
-    galleryImageIds: [],
-  },
+
+  // ===== HOSPITALITY PROJECTS =====
   {
     slug: 'spice-route-restaurant',
     title: 'Spice Route',
@@ -207,7 +158,7 @@ export const projects: Project[] = [
     subcategoryName: 'Restaurant',
     location: 'Chennai',
     year: 2023,
-    description: 'An fine-dining restaurant with an exotic and inviting ambiance.',
+    description: 'A fine-dining restaurant with an exotic and inviting ambiance.',
     coverImageId: 'placeholder-4',
     galleryImageIds: [],
   },
@@ -224,6 +175,8 @@ export const projects: Project[] = [
     coverImageId: 'placeholder-5',
     galleryImageIds: [],
   },
+
+  // ===== HEALTHCARE PROJECTS =====
   {
     slug: 'serene-clinic',
     title: 'Serene Dental Clinic',
@@ -237,6 +190,8 @@ export const projects: Project[] = [
     coverImageId: 'placeholder-6',
     galleryImageIds: [],
   },
+
+  // ===== ART WORK =====
   {
     slug: 'bronze-sculpture',
     title: 'The Thinker',
@@ -254,14 +209,14 @@ export const featuredProjects = projects.slice(0, 3);
 
 export const aboutFirm = {
   name: 'Beyond Interior Design Studio',
-  summary: 'We are an award-winning architecture and interior design firm dedicated to creating spaces that are not only aesthetically pleasing but also a true reflection of our clients’ personalities and needs.',
+  summary: 'We are an award-winning architecture and interior design firm dedicated to creating spaces that are not only aesthetically pleasing but also a true reflection of our clients\' personalities and needs.',
   philosophy: 'Our design philosophy is rooted in a commitment to excellence, innovation, and sustainability. We believe in a collaborative process, working closely with our clients to bring their vision to life with meticulous attention to detail.',
   founder: {
     name: 'Hardik Mistry',
     title: 'Interior Designer',
     bio: 'Hardik Mistry is a visionary leader in the field of architecture and design. With over two decades of experience, he has led the firm to international acclaim, earning a reputation for his timeless designs and unwavering commitment to quality. His work is characterized by a unique ability to blend modernism with tradition, creating spaces that are both contextually relevant and globally inspired.',
-    imageId: 'about-firm'
-  }
+    imageId: 'about-firm',
+  },
 };
 
 export const awards: Award[] = [
@@ -278,6 +233,6 @@ export const contactDetails = {
   socials: {
     instagram: '#',
     linkedin: '#',
-    twitter: '#'
-  }
-}
+    twitter: '#',
+  },
+};
