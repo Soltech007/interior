@@ -79,7 +79,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-secondary">
+      <section className="py-16 md:py-4 bg-secondary">
         <div className="container mx-auto px-4">
           <h2 className="font-headline text-3xl md:text-4xl text-center mb-12">
             Our Work in Motion
@@ -87,7 +87,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <video
               controls
-              className="w-full rounded-lg shadow-xl"
+              className="w-full h-[500px] rounded-lg shadow-xl transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl"
               preload="metadata"
             >
               <source src="/v1.mp4" type="video/mp4" />
@@ -95,7 +95,7 @@ export default function Home() {
             </video>
             <video
               controls
-              className="w-full rounded-lg shadow-xl"
+              className="w-full h-[500px] rounded-lg shadow-xl transition-all duration-400 ease-in-out hover:scale-105 hover:shadow-2xl"
               preload="metadata"
             >
               <source src="/v2.mp4" type="video/mp4" />
@@ -104,6 +104,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
     </div>
   );
 }
