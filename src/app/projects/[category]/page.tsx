@@ -29,6 +29,9 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   return {
     title: `${categoryObj.name} Projects | Beyond Interior Design Studio`,
     description: categoryObj.description,
+
+    // ⭐ Added custom META TAG ⭐
+    keywords: `${categoryObj.name}, interior design, projects, ${categoryObj.slug}`,
   };
 }
 

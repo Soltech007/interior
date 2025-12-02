@@ -3,8 +3,42 @@ import { projects } from '@/lib/data';
 import { ProjectCard } from '@/components/ProjectCard';
 
 export const metadata: Metadata = {
-  title: 'Our Projects | Beyond Interior Design Studio',
-  description: 'Explore our portfolio of residential, corporate, and hospitality projects.',
+  title: "Our Projects | Beyond Interior Design Studio",
+  description:
+    "Browse our curated portfolio of residential, corporate, commercial, and hospitality interior design projects. Experience modern, luxurious, and functional spaces crafted by our studio.",
+  keywords: [
+    "interior design projects",
+    "architecture portfolio",
+    "residential interiors",
+    "commercial interiors",
+    "luxury interior design",
+    "modern interior design",
+    "corporate interiors",
+    "hospitality interiors",
+    "interior design studio work"
+  ],
+  openGraph: {
+    title: "Our Projects | Beyond Interior Design Studio",
+    description:
+      "Discover our collection of premium interior design projects across residential, corporate, and hospitality spaces.",
+    url: "https://yourwebsite.com/projects",
+    type: "website",
+    images: [
+      {
+        url: "/og-projects.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Interior Design Projects Showcase"
+      }
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Our Projects | Beyond Interior Design Studio",
+    description:
+      "Explore our portfolio of luxury and modern interior design projects.",
+    images: ["/og-projects.jpg"],
+  },
 };
 
 export default function ProjectsPage() {

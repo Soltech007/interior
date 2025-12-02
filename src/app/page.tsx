@@ -1,3 +1,40 @@
+export const metadata = {
+  title: "Interior Design & Architecture | Transforming Spaces",
+  description:
+    "We craft bespoke interior and architectural spaces that reflect your vision. Explore our projects, design philosophy, and craftsmanship.",
+  keywords: [
+    "interior design",
+    "architecture",
+    "home decor",
+    "luxury interiors",
+    "modern interior",
+    "interior designers",
+    "designer projects"
+  ],
+  openGraph: {
+    title: "Interior Design & Architecture | Transforming Spaces",
+    description:
+      "Premium interior design and architecture services. Explore our portfolio of modern and timeless spaces.",
+    url: "https://yourwebsite.com",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Interior Design Showcase",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Interior Design & Architecture | Transforming Spaces",
+    description:
+      "Premium interior design firm crafting timeless and modern spaces.",
+    images: ["/og-image.jpg"],
+  },
+};
+
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -23,7 +60,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white p-4">
           <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold">
-            Transforming Spaces Beyond Imagination.
+            Transforming Spaces Beyond Imaginations.
           </h1>
           <p className="mt-4 max-w-2xl text-lg md:text-xl">
             We craft bespoke spaces that reflect your vision and stand the test of time.
