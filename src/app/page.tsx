@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Interior Design & Architecture | Transforming Spaces",
   description:
-    "We craft bespoke interior and architectural spaces that reflect your vision. Explore our projects, design philosophy, and craftsmanship.",
+    "Premium interior design and architecture firm crafting bespoke spaces that blend creativity, functionality, and timeless aesthetics.",
   keywords: [
     "interior design",
     "architecture",
@@ -9,14 +9,48 @@ export const metadata = {
     "luxury interiors",
     "modern interior",
     "interior designers",
-    "designer projects"
+    "designer projects",
+    "architectural design",
+    "residential interiors",
+    "commercial interiors",
+    "space planning",
+    "interior styling",
+    "turnkey interior solutions",
+    "premium interior services"
   ],
+
+  // ⭐ NEW → Helps prevent duplicate content issues
+  alternates: {
+    canonical: "https://beyondistudio.com/",
+  },
+
+  // ⭐ NEW → Good for SEO & Google clarity
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      maxSnippet: -1,
+      maxImagePreview: "large",
+      maxVideoPreview: -1,
+    },
+  },
+
+  // ⭐ Suggest author/brand identity
+  authors: [{ name: "Your Interior Design Firm" }],
+
+  // ⭐ Viewport for responsiveness
+  viewport: "width=device-width, initialScale:1",
+
   openGraph: {
     title: "Interior Design & Architecture | Transforming Spaces",
     description:
-      "Premium interior design and architecture services. Explore our portfolio of modern and timeless spaces.",
-    url: "https://yourwebsite.com",
+      "Explore bespoke interior and architectural projects crafted with precision, creativity, and timeless appeal.",
+    url: "https://beyondistudio.com",
     type: "website",
+    siteName: "Your Interior Design Studio",
+    locale: "en_US",
     images: [
       {
         url: "/og-image.jpg",
@@ -26,14 +60,41 @@ export const metadata = {
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Interior Design & Architecture | Transforming Spaces",
     description:
-      "Premium interior design firm crafting timeless and modern spaces.",
+      "Premium interior design and architectural craftsmanship shaping timeless modern spaces.",
     images: ["/og-image.jpg"],
   },
+
+  // ⭐ JSON-LD Schema (very important for ranking)
+  other: {
+    "script:type": "application/ld+json",
+    "script:data": JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "InteriorDesign",
+      name: "Your Interior Design Firm",
+      url: "https://beyondistudio.com",
+      description:
+        "A premium interior design and architectural studio specializing in bespoke, modern, and luxury spaces.",
+      image: "https://beyondistudio.com/og-image.jpg",
+      sameAs: [
+        "https://www.instagram.com/yourstudio",
+        "https://www.facebook.com/yourstudio",
+        "https://www.linkedin.com/company/yourstudio"
+      ],
+      logo: "https://beyondistudio.com/logo.png",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Vapi",
+        addressCountry: "India"
+      }
+    }),
+  },
 };
+
 
 import Image from 'next/image';
 import Link from 'next/link';

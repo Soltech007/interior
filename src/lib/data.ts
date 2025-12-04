@@ -4,9 +4,10 @@ import { PlaceHolderImages } from './placeholder-images';
 export const getImageById = (id: string): ImagePlaceholder => {
   const image = PlaceHolderImages.find((img) => img.id === id);
   if (!image) {
+    // Fallback to local banner instead of random external image
     return {
       id: 'not-found',
-      imageUrl: `https://picsum.photos/seed/${id}/600/400`,
+      imageUrl: '/banner.jpg',
       description: 'Image not found',
       imageHint: 'placeholder',
       width: 600,
@@ -76,7 +77,8 @@ export const projects: Project[] = [
     subcategoryName: 'Office',
     location: 'Vapi',
     year: 2023,
-    description: 'A modern commercial office space designed for efficiency and style. The design incorporates clean lines, ample natural light, and collaborative workspaces.',
+    description:
+      'A modern commercial office space designed for efficiency and style. The design incorporates clean lines, ample natural light, and collaborative workspaces.',
     coverImageId: 'cover-limpair-office',
     galleryImageIds: ['gallery-limpair-1', 'gallery-limpair-2', 'gallery-limpair-3', 'gallery-limpair-4'],
   },
@@ -91,9 +93,18 @@ export const projects: Project[] = [
     subcategoryName: 'Bungalows',
     location: 'Daman',
     year: 2023,
-    description: 'A luxurious bungalow designed for modern family living. Features include open-plan living spaces, contemporary finishes, and seamless indoor-outdoor flow.',
+    description:
+      'A luxurious bungalow designed for modern family living. Features include open-plan living spaces, contemporary finishes, and seamless indoor-outdoor flow.',
     coverImageId: 'cover-daman-residence',
-    galleryImageIds: ['gallery-daman-1', 'gallery-daman-2', 'gallery-daman-3', 'gallery-daman-4'],
+    galleryImageIds: [
+      'gallery-daman-1',
+      'gallery-daman-2',
+      'gallery-daman-3',
+      'gallery-daman-4',
+      'gallery-daman-5',
+      'gallery-daman-6',
+      'gallery-daman-7',
+    ],
   },
   {
     slug: 'modern-residence',
@@ -104,9 +115,18 @@ export const projects: Project[] = [
     subcategoryName: 'Flats',
     location: 'Mumbai',
     year: 2023,
-    description: 'A chic and functional apartment design for urban living. The space maximizes natural light while providing comfortable living areas and modern amenities.',
+    description:
+      'A chic and functional apartment design for urban living. The space maximizes natural light while providing comfortable living areas and modern amenities.',
     coverImageId: 'cover-residence',
-    galleryImageIds: ['gallery-residence-1', 'gallery-residence-2', 'gallery-residence-3', 'gallery-residence-4'],
+    galleryImageIds: [
+      'gallery-residence-1',
+      'gallery-residence-2',
+      'gallery-residence-3',
+      'gallery-residence-4',
+      'gallery-residence-5',
+      'gallery-residence-6',
+      'gallery-residence-7',
+    ],
   },
   {
     slug: 'valsad-residence',
@@ -117,9 +137,21 @@ export const projects: Project[] = [
     subcategoryName: 'Bungalows',
     location: 'Valsad',
     year: 2024,
-    description: 'An elegant villa combining traditional aesthetics with modern functionality. The design emphasizes spacious rooms, natural materials, and connection to nature.',
+    description:
+      'An elegant villa combining traditional aesthetics with modern functionality. The design emphasizes spacious rooms, natural materials, and connection to nature.',
     coverImageId: 'cover-valsad-residence',
-    galleryImageIds: ['gallery-valsad-1', 'gallery-valsad-2', 'gallery-valsad-3', 'gallery-valsad-4'],
+    galleryImageIds: [
+      'gallery-valsad-1',
+      'gallery-valsad-2',
+      'gallery-valsad-3',
+      'gallery-valsad-4',
+      'gallery-valsad-5',
+      'gallery-valsad-6',
+      'gallery-valsad-7',
+      'gallery-valsad-8',
+      'gallery-valsad-9',
+      'gallery-valsad-10',
+    ],
   },
   {
     slug: 'gourmet-kitchen',
@@ -131,8 +163,8 @@ export const projects: Project[] = [
     location: 'Delhi',
     year: 2023,
     description: "A chef's dream kitchen with state-of-the-art appliances and custom cabinetry.",
-    coverImageId: 'placeholder-2',
-    galleryImageIds: [],
+    coverImageId: 'cover-gourmet-kitchen',
+    galleryImageIds: ['gallery-gourmet-kitchen-1', 'gallery-gourmet-kitchen-2'],
   },
   {
     slug: 'spa-bathroom',
@@ -144,8 +176,15 @@ export const projects: Project[] = [
     location: 'Pune',
     year: 2024,
     description: 'A luxurious bathroom designed to be a personal spa retreat.',
-    coverImageId: 'placeholder-3',
-    galleryImageIds: [],
+    coverImageId: 'cover-spa-bathroom',
+    galleryImageIds: [
+      'gallery-spa-bathroom-1',
+      'gallery-spa-bathroom-2',
+      'gallery-spa-bathroom-3',
+      'gallery-spa-bathroom-4',
+      'gallery-spa-bathroom-5',
+      'gallery-spa-bathroom-6',
+    ],
   },
 
   // ===== HOSPITALITY PROJECTS =====
@@ -159,8 +198,22 @@ export const projects: Project[] = [
     location: 'Chennai',
     year: 2023,
     description: 'A fine-dining restaurant with an exotic and inviting ambiance.',
-    coverImageId: 'placeholder-4',
-    galleryImageIds: [],
+    coverImageId: 'cover-spice-route',
+    galleryImageIds: [
+      'gallery-spice-route-1',
+      'gallery-spice-route-2',
+      'gallery-spice-route-3',
+      'gallery-spice-route-4',
+      'gallery-spice-route-5',
+      'gallery-spice-route-6',
+      'gallery-spice-route-7',
+      'gallery-spice-route-8',
+      'gallery-spice-route-9',
+      'gallery-spice-route-10',
+      'gallery-spice-route-11',
+      'gallery-spice-route-12',
+      'gallery-spice-route-13',
+    ],
   },
   {
     slug: 'grand-banquet-hall',
@@ -172,8 +225,8 @@ export const projects: Project[] = [
     location: 'Hyderabad',
     year: 2022,
     description: 'A magnificent banquet hall for weddings and corporate events.',
-    coverImageId: 'placeholder-5',
-    galleryImageIds: [],
+    coverImageId: 'cover-grand-hall',
+    galleryImageIds: ['gallery-grand-hall-1', 'gallery-grand-hall-2', 'gallery-grand-hall-3'],
   },
 
   // ===== HEALTHCARE PROJECTS =====
@@ -187,8 +240,15 @@ export const projects: Project[] = [
     location: 'Noida',
     year: 2023,
     description: 'A calming and modern dental clinic designed to reduce patient anxiety.',
-    coverImageId: 'placeholder-6',
-    galleryImageIds: [],
+    coverImageId: 'cover-serene-clinic',
+    galleryImageIds: [
+      'gallery-serene-clinic-1',
+      'gallery-serene-clinic-2',
+      'gallery-serene-clinic-3',
+      'gallery-serene-clinic-4',
+      'gallery-serene-clinic-5',
+      'gallery-serene-clinic-6',
+    ],
   },
 
   // ===== ART WORK =====
@@ -200,8 +260,8 @@ export const projects: Project[] = [
     location: 'Studio',
     year: 2024,
     description: 'A custom bronze sculpture for a private collector.',
-    coverImageId: 'placeholder-7',
-    galleryImageIds: [],
+    coverImageId: 'cover-artwork',
+    galleryImageIds: ['gallery-artwork-1', 'gallery-artwork-2', 'gallery-artwork-3'],
   },
 ];
 
@@ -209,8 +269,10 @@ export const featuredProjects = projects.slice(0, 3);
 
 export const aboutFirm = {
   name: 'Beyond Interior Design Studio',
-  summary: 'We are an award-winning architecture and interior design firm dedicated to creating spaces that are not only aesthetically pleasing but also a true reflection of our clients\' personalities and needs.',
-  philosophy: 'Our design philosophy is rooted in a commitment to excellence, innovation, and sustainability. We believe in a collaborative process, working closely with our clients to bring their vision to life with meticulous attention to detail.',
+  summary:
+    "We are an award-winning architecture and interior design firm dedicated to creating spaces that are not only aesthetically pleasing but also a true reflection of our clients' personalities and needs.",
+  philosophy:
+    'Our design philosophy is rooted in a commitment to excellence, innovation, and sustainability. We believe in a collaborative process, working closely with our clients to bring their vision to life with meticulous attention to detail.',
   founder: {
     name: 'Hardik Mistry',
     title: 'Interior Designer',
@@ -220,10 +282,30 @@ export const aboutFirm = {
 };
 
 export const awards: Award[] = [
-  { year: 2023, title: 'Best Hospitality Project', project: 'The Elysian Hotel', organization: 'Design & Architecture Awards' },
-  { year: 2023, title: 'Excellence in Corporate Design', project: 'TechCorp HQ', organization: 'Workspace Design Awards' },
-  { year: 2022, title: 'Residential Project of the Year', project: 'Azure Villas', organization: 'Luxury Lifestyle Awards' },
-  { year: 2021, title: 'Innovation in Workspace Design', project: 'Innovate Hub', organization: 'Future of Work Awards' },
+  {
+    year: 2023,
+    title: 'Best Hospitality Project',
+    project: 'The Elysian Hotel',
+    organization: 'Design & Architecture Awards',
+  },
+  {
+    year: 2023,
+    title: 'Excellence in Corporate Design',
+    project: 'TechCorp HQ',
+    organization: 'Workspace Design Awards',
+  },
+  {
+    year: 2022,
+    title: 'Residential Project of the Year',
+    project: 'Azure Villas',
+    organization: 'Luxury Lifestyle Awards',
+  },
+  {
+    year: 2021,
+    title: 'Innovation in Workspace Design',
+    project: 'Innovate Hub',
+    organization: 'Future of Work Awards',
+  },
 ];
 
 export const contactDetails = {

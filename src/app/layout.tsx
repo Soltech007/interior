@@ -1,71 +1,86 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { cn } from '@/lib/utils';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { Toaster } from '@/components/ui/toaster';
-import Script from "next/script";
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: {
-    default: "Beyond Interior Design Studio",
-    template: "%s | Beyond Interior Design Studio",
+    default: 'Beyond Interior Design Studio',
+    template: '%s | Beyond Interior Design Studio',
   },
+
   description:
-    "An elegant portfolio for an interior design and architecture firm showcasing bespoke spaces, modern designs, and premium craftsmanship.",
+    'A premium interior design and architecture studio showcasing bespoke luxury spaces, modern concepts, and high-end craftsmanship.',
+
+  // ⚠️ Yahan pehle viewport tha, ab hata diya gaya hai
+
   keywords: [
-    "interior design",
-    "architecture",
-    "home decor",
-    "luxury interiors",
-    "modern interior design",
-    "designer portfolio",
-    "interior design studio"
+    'interior design',
+    'architecture',
+    'luxury interiors',
+    'modern interior design',
+    'residential interiors',
+    'commercial interior design',
+    'home decor ideas',
+    'premium interior studio',
+    'interior designers',
+    'turnkey interior solutions',
   ],
-  metadataBase: new URL("https://yourwebsite.com"),  
+
+  metadataBase: new URL('https://yourwebsite.com'),
 
   openGraph: {
-    title: "Beyond Interior Design Studio",
+    title: 'Beyond Interior Design Studio',
     description:
-      "Explore our premium interior design and architecture portfolio featuring modern, timeless, and luxury spaces.",
-    url: "https://yourwebsite.com",
-    siteName: "Beyond Interior Design Studio",
-    type: "website",
+      'Explore modern, timeless, and luxury interior design projects crafted with precision and creativity.',
+    url: 'https://yourwebsite.com',
+    siteName: 'Beyond Interior Design Studio',
+    type: 'website',
     images: [
       {
-        url: "/og-image.jpg",
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: "Beyond Interior Design Showcase",
+        alt: 'Beyond Interior Design Showcase',
       },
     ],
   },
 
   twitter: {
-    card: "summary_large_image",
-    title: "Beyond Interior Design Studio",
+    card: 'summary_large_image',
+    title: 'Beyond Interior Design Studio',
     description:
-      "Premium interior design and architecture firm crafting timeless and modern spaces.",
-    images: ["/og-image.jpg"],
+      'Premium interior design & architecture studio crafting timeless luxury spaces.',
+    images: ['/og-image.jpg'],
+  },
+
+  alternates: {
+    canonical: 'https://yourwebsite.com',
   },
 
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
   },
 
   robots: {
     index: true,
     follow: true,
   },
-
-  alternates: {
-    canonical: "https://yourwebsite.com",
-  },
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+// ⭐ Next.js 15 style viewport (alag export)
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -94,14 +109,13 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       </head>
 
       <body className={cn('font-body antialiased')}>
-        
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-N94ZQK7T"
             height="0"
             width="0"
-            style={{ display: "none", visibility: "hidden" }}
+            style={{ display: 'none', visibility: 'hidden' }}
           ></iframe>
         </noscript>
         {/* End Google Tag Manager (noscript) */}
