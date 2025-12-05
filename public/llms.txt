@@ -1,0 +1,64 @@
+# LLM Access Policy for Beyond Interior Design Studio
+# URL: https://beyondistudio.com/
+# Purpose: Allow AI agents and LLM-based crawlers to understand and index public site content.
+
+[meta]
+site_name: Beyond Interior Design Studio
+site_type: Interior Design Portfolio & Services Website
+owner: Beyond Interior Design Studio
+allow_llm_crawling: true
+allow_data_usage: descriptive, informational
+disallow_data_usage: training of harmful models, disallowed commercial redistribution
+
+[intent]
+This website showcases residential, commercial, hospitality, healthcare, and art design projects.
+Public pages may be used for:
+- Search indexing
+- Content understanding
+- Summarization
+- Enhancing AI search results
+- Knowledge retrieval regarding design styles, services, and portfolio
+
+Not allowed:
+- Reproducing full-resolution copyrighted images
+- Using content for training models that compete directly with Beyond Interior Design Studio’s creative work
+- Aggregating or selling project images
+
+[allowed_paths]
+/
+about
+/projects
+/projects/residential
+/projects/residential/flats
+/projects/residential/bungalows
+/projects/residential/kitchen
+/projects/residential/bathroom
+/projects/commercial
+/projects/commercial/office
+/projects/commercial/shop-boutique
+/projects/hospitality
+/projects/hospitality/hotel
+/projects/hospitality/restaurant
+/projects/hospitality/banquet
+/projects/hospital-healthcare
+/projects/hospital-healthcare/clinic
+/projects/art-work
+/contact
+
+[blocked_paths]
+/admin
+/api
+/private
+/_next
+/server
+/unused
+
+[rate_limits]
+max_requests_per_minute: 60
+
+[sitemap]
+https://beyondistudio.com/sitemap.xml
+
+[credits]
+Generated for compatibility with AI agents and large language models.
+All content © Beyond Interior Design Studio.

@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Block internal or unnecessary routes
+Disallow: /api/
+Disallow: /admin/
+Disallow: /server/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow crawling of all public project pages
+Allow: /projects/
+Allow: /projects/residential/
+Allow: /projects/commercial/
+Allow: /projects/hospitality/
+Allow: /projects/hospital-healthcare/
+Allow: /projects/art-work/
+
+# Sitemap location
+Sitemap: https://beyondistudio.com/sitemap.xml
